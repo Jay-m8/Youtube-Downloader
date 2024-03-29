@@ -15,7 +15,7 @@ Author: `https://github.com/pytube/pytube`
     
     ✅ The script uses ffmpeg to turn the MP4 file downloaded from pytube into an actual MP3
     ✅ Supports submitting multiple URLs to be processed but not in parallel (maybe soon)
-    ✅ Has a nice user-friendly GUI
+    ✅ Has a nice user-friendly GUI to select download destination
 
 <h2> Installation </h2>
 
