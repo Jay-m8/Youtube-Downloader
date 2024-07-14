@@ -2,9 +2,9 @@
 
 This repository exists to overcome the issues I faced with using default Pytube. 
 
-Author: `https://github.com/pytube/pytube` 
+Author: `https://github.com/JuanBindez/pytubefix` 
 
-<h2> pytube </h2>
+<h2> pytubefix </h2>
      
     ✅ Great for downloading MP4 files and YouTube video Metadata
     ❌ Bad for downloading MP3 files
@@ -15,7 +15,7 @@ Author: `https://github.com/pytube/pytube`
     
     ✅ The script uses ffmpeg to turn the MP4 file downloaded from pytube into an actual MP3
     ✅ Supports submitting multiple URLs to be processed but not in parallel (maybe soon)
-    ✅ Has a nice user-friendly GUI to select download destination
+    ✅ Has a nice user-friendly GUI to select download directory
 
 <h2> Installation </h2>
 
@@ -25,11 +25,11 @@ Before beginning you'll need a file archiver utility like 7-zip or WinRAR in ord
 
 1. Run `setup.py`
 2. Extract ffmpeg.7z with `setup.py` or manually 
-3. Navigate to 'Edit the system environment variables ![](https://github.com/Jay-m8/Youtube-MP3-Downloader/blob/41c02578b2c367687d7428249889be771343a772/img/step3.png)
-4. In System Properties, go to Advance tab and click `Environment Variables` ![](https://github.com/Jay-m8/Youtube-MP3-Downloader/blob/41c02578b2c367687d7428249889be771343a772/img/step4.png)
-5. Go to user variables and click `Path` and click the New button ![](https://github.com/Jay-m8/Youtube-MP3-Downloader/blob/41c02578b2c367687d7428249889be771343a772/img/step5.png)
-6. Click new and copy the path to the three main EXE programs from the extracted folder ![](https://github.com/Jay-m8/Youtube-MP3-Downloader/blob/41c02578b2c367687d7428249889be771343a772/img/step6.png)
-7. Now open a terminal and type `ffmpeg` and it should look like this ![](https://github.com/Jay-m8/Youtube-MP3-Downloader/blob/41c02578b2c367687d7428249889be771343a772/img/step7.png)
+3. Navigate to 'Edit the system environment variables ![](/step3.png)
+4. In System Properties, go to Advance tab and click `Environment Variables` ![](/step4.png)
+5. Go to user variables and click `Path` and click the New button ![](/step5.png)
+6. Click new and copy the path to the three main EXE programs from the extracted folder ![](/step6.png)
+7. Now open a terminal and type `ffmpeg` and it should look like this ![](/step7.png)
 
 ---
 
@@ -40,4 +40,5 @@ Now that everything is installed and pre-configured, you can run `main.py`.
 1. Run main.py
 2. Paste all the Youtube URLs you want in terminal, seperate URLs with commas and no spaces
 3. Select what directory you want the MP3 file/s to be downloaded to
-4. Done, type 'quit' once your're finished
+4. Done, type 'quit' once your're done
+
