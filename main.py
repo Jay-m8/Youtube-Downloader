@@ -1,7 +1,8 @@
+from pytubefix import YouTube
+from pytubefix.cli import on_progress
 import os
-from tkinter import filedialog
 from tkinter import *
-from pytube import YouTube
+from tkinter import filedialog
 import subprocess
 
 def download_audio(yt,folder_selected):
@@ -52,8 +53,5 @@ while True:
         folder_selected = filedialog.askdirectory()
 # Iterate through songs in Url_list
     for track in Url_list: 
-        yt = YouTube(track)
+        yt = YouTube(track, on_progress_callback = on_progress)
         download_audio(yt,folder_selected)
-
-        
-
